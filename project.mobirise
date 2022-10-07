@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Campuswelt Banner",
-    "currentPage": "telc-UK.html",
+    "currentPage": "Ukrayna-Banner-DE.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -72,7 +72,8 @@
       "currency": "USD"
     },
     "uniqCompNum": 16,
-    "versionPublish": "5.6.11"
+    "versionPublish": "5.6.11",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -84,74 +85,7 @@
         "footer_custom": "",
         "html_before": ""
       },
-      "components": [
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_cid": "tjwvPM2VEN",
-          "_anchor": "footer02-2",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {}
-        }
-      ]
+      "components": []
     },
     "Ukrayna-Banner-DE.html": {
       "settings": {
@@ -165,7 +99,7 @@
         {
           "_name": "afeatures1",
           "_sourceTheme": "retreatm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\">\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\">\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#77BBDF\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#FFF182\" condition=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#f6f8fb\" condition=\"showBorder\">\n        <input type=\"color\" title=\"Card Bg\" name=\"cardColor\" value=\"#ffffff\" selected>\n        <input type=\"checkbox\" title=\"Hover Img\" name=\"showHoverImg\">\n        <input type=\"image\" name=\"card1Img\" title=\"Image 1\" value=\"@ADDONS_PATH@/retreatm5/components/_images/features/features1.jpg\" condition=\"showHoverImg\">\n        <input type=\"image\" name=\"card2Img\" title=\"Image 2\" value=\"@ADDONS_PATH@/retreatm5/components/_images/features/features2.jpg\" condition=\"showHoverImg &amp;&amp; cardsAmount >1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/retreatm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/retreatm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n        <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">Deutsch lernen für Ukrainer – kostenloser Deutschkurs und Sprachcafe für Geflüchtete beim CampusWelt.</h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">Kostenlose Deutschkurse und Sprachcafee für Geflüchtete aus der Ukraine \n<div>Einer der erste Schritte zum Leben in Deutschland ist das Erlernen der Sprache. Deshalb bieten wir Geflüchteten aus der Ukraine kostenlose Deutsch-Einstiegkurse und Sprachcafe  an.&nbsp;</div></h5>\n            </div>\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-img card-img1\" mbr-if=\"showHoverImg\"></div>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><b>Was du lernen wirst:&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Kommunikation in Alltagssituationen, z.B. beim Kauf eines Zugtickets.\n<br>Aufschreiben von Kontaktdaten und Ausfüllen einfacher Formulare.  \n<br>Einfache Unterhaltungen auf Deutsch zu führen.&nbsp;</p>\n                        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-img card-img2\" mbr-if=\"showHoverImg\"></div>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><b>Was ist eine Sprachcafe?</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Es ist also ein Ort, an dem Menschen zusammenkommen, um sich auszutauschen und dabei ihre Sprachkenntnisse aufzufrischen oder zu erwerben. Vor allem dient das Sprachcafe dafür, neben dem eigentlichen Unterricht, die Kenntnisse zu erweitern. </p>\n                        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Blurred Circle 1\" name=\"showBlurredCircle1\">\n        <input type=\"checkbox\" title=\"Blurred Circle 2\" name=\"showBlurredCircle2\">\n        <input type=\"color\" name=\"circleColor1\" title=\"Circle Color 1\" value=\"#77BBDF\" condition=\"showBlurredCircle1\">\n        <input type=\"color\" name=\"circleColor2\" title=\"Circle Color 2\" value=\"#FFF182\" condition=\"showBlurredCircle2\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#f6f8fb\" condition=\"showBorder\">\n        <input type=\"color\" title=\"Card Bg\" name=\"cardColor\" value=\"#ffffff\" selected>\n        <input type=\"checkbox\" title=\"Hover Img\" name=\"showHoverImg\">\n        <input type=\"image\" name=\"card1Img\" title=\"Image 1\" value=\"@ADDONS_PATH@/retreatm5/components/_images/features/features1.jpg\" condition=\"showHoverImg\">\n        <input type=\"image\" name=\"card2Img\" title=\"Image 2\" value=\"@ADDONS_PATH@/retreatm5/components/_images/features/features2.jpg\" condition=\"showHoverImg &amp;&amp; cardsAmount >1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/retreatm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/retreatm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"circle-blur circle-blur1\" mbr-if=\"showBlurredCircle1\"></div>\n        <div class=\"circle-blur circle-blur2\" mbr-if=\"showBlurredCircle2\"></div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-title\" mbr-if=\"showMainTitle || showMainSubtitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">Deutsch lernen für Ukrainer – <span class=\"kostenloser\">kostenloser</span> Deutschkurs und Sprachcafe für Geflüchtete beim CampusWelt.</h3>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">Kostenlose Deutschkurse und Sprachcafee für Geflüchtete aus der Ukraine \n<div>Einer der erste Schritte zum Leben in Deutschland ist das Erlernen der Sprache. Deshalb bieten wir Geflüchteten aus der Ukraine kostenlose Deutsch-Einstiegkurse und Sprachcafe  an.&nbsp;</div></h5>\n            </div>\n            <div>\n                <img class=\"bayrak\" src=\"@PROJECT_PATH@/assets/images/ukrayna-bayrak.png\" width:300=\"\" height:150=\"\" alt>\n                </div>\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-img card-img1\" mbr-if=\"showHoverImg\"></div>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><b>Was du lernen wirst:&nbsp;</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Kommunikation in Alltagssituationen, z.B. beim Kauf eines Zugtickets.\n<br>Aufschreiben von Kontaktdaten und Ausfüllen einfacher Formulare.  \n<br>Einfache Unterhaltungen auf Deutsch zu führen.&nbsp;</p>\n                        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-img card-img2\" mbr-if=\"showHoverImg\"></div>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-fonts-style align-center mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .mbr-section-btn\"><b>Was ist ein Sprachcafe?</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Es ist also ein Ort, an dem Menschen zusammenkommen, um sich auszutauschen und dabei ihre Sprachkenntnisse aufzufrischen oder zu erwerben. Vor allem dient das Sprachcafe dafür, neben dem eigentlichen Unterricht, die Kenntnisse zu erweitern. </p>\n                        <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Learn more</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -334,79 +268,25 @@
             },
             ".card-title, .mbr-section-btn": {
               "color": "#000000"
+            },
+            ".kostenloser": {
+              "font-weight": "bolder",
+              "color": "#39b54a"
+            },
+            ".bayrak": {
+              "width": "250px",
+              "height": "150px",
+              "display": "block",
+              "margin": "auto"
             }
           },
           "_cid": "tjwx4QJubk",
           "_anchor": "afeatures1-3",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwx4Si1qa",
-          "_anchor": "footer02-4",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
           "_params": {}
         }
       ]
@@ -600,72 +480,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwxvAMaE9",
-          "_anchor": "footer02-6",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {}
         }
       ]
     },
@@ -858,72 +672,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwzhXcSNc",
-          "_anchor": "footer02-8",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {}
         }
       ]
     },
@@ -1020,72 +768,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwASmc4DG",
-          "_anchor": "footer02-a",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
           "_params": {}
         }
       ]
@@ -1184,72 +866,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwDoCVxmU",
-          "_anchor": "footer02-d",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
-          "_params": {}
         }
       ]
     },
@@ -1346,72 +962,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "footer02",
-          "_sourceTheme": "cryptom5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footer\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input inline type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Color</header>\n               <input type=\"color\" title=\"Icons BG\" name=\"iconsColor\" value=\"#403f83\">\n        <input type=\"color\" title=\"Icons\" name=\"iconshoverColor\" value=\"#ffffff\">\n         <header>Background</header>\n            <input type=\"color\" name=\"bg\" title=\"Color\" value=\"#007aff\" selected>\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-lg-2\">\n            <h4 class=\"mbr-text align-left m-0 p-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\"><b>Wie du dich anmeldest :</b></h4>\n            </div>\n            \n            <div class=\"col-md-12 mbr-flex col-lg-4 my-auto px-4 align-left\" mbr-if=\"showTitle\">\n                \n                \n                <p class=\"mbr-text text-grey mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-text data-app-selector=\".mbr-text\">You can reach us by phone or by <a href=\"mailto:info@campuswelt.eu\">E-Mail</a>.</p>\n            </div>\n          \n            <div class=\"col-md-12 col-lg-6 px-4 align-right\">\n                <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://instagram.com/campuswelt.eu\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/campuswelt.eu?_ga=2.220052893.505209735.1654196893-906400346.1654196893\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>6\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>7\">\n                        <a href=\"#\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bg",
-            ".social-list": {
-              "display": "flex",
-              "justify-content": "flex-end",
-              "flex-wrap": "wrap"
-            },
-            ".btn-social, .mbr-section-title": {
-              "color": "#57468b"
-            },
-            ".row": {
-              "justify-content": "space-between"
-            },
-            ".soc-item": {
-              "width": "40px",
-              "height": "40px",
-              "border-radius": "6px",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "transition": "all 0.3s",
-              "margin": "0 5px",
-              "background": "@iconsColor",
-              "span": {
-                "font-size": "20px",
-                "color": "@iconshoverColor !important",
-                "transition": "all 0.3s"
-              },
-              "&:hover": {
-                "span": {
-                  "color": "@iconsColor !important"
-                },
-                "background": "@iconshoverColor"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".align-left, .align-right": {
-                "text-align": "center"
-              },
-              ".social-list": {
-                "justify-content": "center"
-              },
-              ".mb-0": {
-                "padding-bottom": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "left"
-            }
-          },
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_cid": "tjwDKQnm7E",
-          "_anchor": "footer02-f",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footer",
           "_params": {}
         }
       ]
