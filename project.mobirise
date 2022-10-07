@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Campuswelt Banner",
-    "currentPage": "ukrayna-banner.html",
+    "currentPage": "telc-EN.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -13,16 +13,16 @@
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
-        "display1Font": "Jost",
-        "display1Size": 4.6,
-        "display2Font": "Jost",
-        "display2Size": 3,
-        "display5Font": "Jost",
-        "display5Size": 2,
-        "display7Font": "Jost",
-        "display7Size": 1.2,
-        "display4Font": "Jost",
-        "display4Size": 1.1,
+        "display1Font": "Raleway",
+        "display1Size": "3.4",
+        "display2Font": "Raleway",
+        "display2Size": "2.2",
+        "display5Font": "Raleway",
+        "display5Size": "1.4",
+        "display7Font": "Nunito Sans",
+        "display7Size": "1",
+        "display4Font": "Nunito Sans",
+        "display4Size": "1.2",
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
@@ -41,6 +41,16 @@
         "css": "'Jost', sans-serif",
         "name": "Jost",
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Nunito Sans', sans-serif",
+        "name": "Nunito Sans",
+        "url": "https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
       }
     ],
     "chatbutton": {},
