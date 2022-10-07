@@ -683,8 +683,8 @@ a {
   transition: color 0.6s;
 }
 .cid-tjwx4QJubk {
-  padding-top: 4rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
   overflow: hidden;
 }
@@ -1000,6 +1000,12 @@ a {
 .cid-tjwxvzNWUm .mbr-section-btn {
   color: #000000;
 }
+.cid-tjwxvzNWUm .bayrak {
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
 .cid-tjwzhVWL6Y {
   padding-top: 6rem;
   padding-bottom: 1rem;
@@ -1153,6 +1159,12 @@ a {
 .cid-tjwzhVWL6Y .card-title,
 .cid-tjwzhVWL6Y .mbr-section-btn {
   color: #000000;
+}
+.cid-tjwzhVWL6Y .bayrak {
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: auto;
 }
 .cid-tjwBCNgpEC {
   padding-top: 0rem;
